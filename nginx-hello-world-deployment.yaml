@@ -12,7 +12,7 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 30001
+    nodePort: 30055
   selector:
     app: nginx
 ---
